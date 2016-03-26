@@ -13,6 +13,8 @@ This application is developed just for learning and educational purpose only.
 
 3. pexpect [**https://pypi.python.org/pypi/pexpect/**](https://pypi.python.org/pypi/pexpect/)
 
+4. Nmap to be installed on system
+
 
 ## Usage
 
@@ -32,7 +34,7 @@ To get the help menu
 
 	python sshDictionaryAttack.py 127.0.0.1 testuser password_file.txt
 
-It will first check if the `SSH port 22` is open using `Nmap` and if it is open then it will try enter into `SSH terminal` using the `username` provide and with all the combination of `password` from the `password file`.
+It will first check if the `SSH port 22` is open using `Nmap` and if it is open then it will try to enter into `SSH terminal` using the `username` provide and with all the combination of `password` from the `password file`.
 
 
 ## Contribute
